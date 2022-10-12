@@ -11,7 +11,8 @@
   "dependencies": {
     "next": "12.3.1",
     "react": "18.2.0",
-    "react-dom": "18.2.0"
+    "react-dom": "18.2.0",
+    "@joystreamjs/content": "file:/Users/bartoszdryl/programming/apps/joystream/joystreamjs/content/joystreamjs-content-v1.0.0.tgz"
   },
   "devDependencies": {
     "@types/node": "18.8.4",
@@ -20,5 +21,12 @@
     "eslint": "8.25.0",
     "eslint-config-next": "12.3.1",
     "typescript": "4.8.4"
+  },
+  "resolutions": {
+    "@polkadot/api": "8.9.1",
+    "bn.js": "5.2.1",
+    "blake3": "patch:blake3@npm:2.1.7#.yarn/patches/blake3-npm-2.1.7-7bf40c44b4",
+    "@joystream/types@0.20.2": "patch:@joystream/types@npm:0.20.2#.yarn/patches/@joystream-types-npm-0.20.2-e5fef8d2bf.patch",
+    "@joystreamjs/utils": "file:/Users/bartoszdryl/programming/apps/joystream/joystreamjs/utils/joystreamjs-utils-v1.0.0.tgz"
   }
 }
